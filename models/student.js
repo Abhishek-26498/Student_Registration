@@ -25,7 +25,8 @@ const studentSchema = new mongoose.Schema({
                 throw new Error("Invalid Email")
             }
         }
-    },
+    }, 
+    
     
     // validate: {
     //     validator(value){
