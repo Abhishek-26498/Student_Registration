@@ -26,7 +26,7 @@ const studentSchema = new mongoose.Schema({
             }
         }
     }, 
-    
+
     
     // validate: {
     //     validator(value){
@@ -36,6 +36,8 @@ const studentSchema = new mongoose.Schema({
     //     }
     //     }
     // },
+
+    
     phone:{
         type:Number,
         required:true,
